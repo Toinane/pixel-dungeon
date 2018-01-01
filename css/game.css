@@ -1,0 +1,41 @@
+body{
+   background: #242a39;
+   font-family: sans-serif;
+   text-align: center;
+   margin: auto;
+}
+
+table{
+	border-collapse: collapse;
+	margin: 20px auto;
+
+}
+	td{
+		padding: 20px;
+		background: #f6f7eb;
+	}
+      td.yellow{
+         padding: 0;
+         background: #f6f7eb;
+      }
+      td.yellow:before{
+         content: '';
+         padding: 10px 20px;
+         background: #f8da5b;
+         border-radius: 20px;
+      }
+      td.path{
+         background: #fa7f7f;
+      }
+		td.blue{
+			background: #3f88c5;
+		}
+		td.red{
+			background: #e94f37;
+		}
+		td.black{
+			background: #242a39;
+		}
+		td.green{
+			background: #48a9a6;
+		}
