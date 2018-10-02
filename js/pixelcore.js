@@ -220,7 +220,7 @@ let pixelcore = {
    // OUTPUT: null          //
    ///////////////////////////
    listener: function(){
-      document.addEventListener('keypress', (e) => this.moveplayer(e));
+      document.addEventListener('keydown', (e) => this.moveplayer(e));
    },
 
 
