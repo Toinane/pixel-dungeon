@@ -1,0 +1,29 @@
+*[class^='tile-'] {
+  background: url('./dungeon-sprite.png');
+  background-size: 2000%;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  width: 64px;
+  height: 64px;
+  margin: 5px;
+}
+
+.tile-gray-ground-1 {
+  background-position: 0 0;
+}
+
+.tile-gray-ground-2 {
+  background-position: 5.26% 0;
+}
+
+.tile-gray-ground-3 {
+  background-position: 10.52% 0;
+}
+
+.tile-gray-ground-4 {
+  background-position: 15.78% 0;
+}
+
+.tile-gray-wall-1 {
+  background-position: 0 39,06%;
+}
